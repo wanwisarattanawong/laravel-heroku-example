@@ -42,9 +42,9 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'host' => env('DB_HOST', 'remotemysql.com'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('remotemysql.com', 'forge'),
+            'database' => env('KjoD2kJHJ5', 'forge'),
             'username' => env('KjoD2kJHJ5', 'forge'),
             'password' => env('gZ209RKL9i', ''),
             'unix_socket' => env('DB_SOCKET', ''),
