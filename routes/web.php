@@ -14,10 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/', function () {
+Route::get('users', function () {
     return '<h1>Users! 555</h1>';
 }); 
-Route::get('/', function () {
+Route::get('showname', function () {
     return '<h1>Hello Laraval</h1>';
 });  
 
