@@ -14,6 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/show', function () {
-    return view('create.users');
+Route::get('/homes', function () {
+    return view('homes');
 });
+Route::get('/edit', function () {
+    return view('edit');
+});
+Route::get('/show','HelloController@show');
