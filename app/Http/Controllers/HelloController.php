@@ -8,7 +8,7 @@ class HelloController extends Controller
 {
     function show(){
       return view('users')
-      ->with('name','ploy')
+      ->with('name','wanwisarattanawong')
       ->with('title','Laravel tutorial');
   }
 }
